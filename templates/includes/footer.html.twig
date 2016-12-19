@@ -1,0 +1,8 @@
+<div class="footwrap uk-back-black">
+    <div class="uk-container uk-container-center">
+      
+            {% if page.footer %} {{ page.footer }} {% endif %}
+			{% if page.copyright %} {{ page.copyright }} {% endif %}
+			{% include directory ~ '/templates/includes/copyright.html.twig' %}
+    </div>
+</div>
